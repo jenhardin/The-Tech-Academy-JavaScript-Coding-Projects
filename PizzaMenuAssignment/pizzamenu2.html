@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="./css/pizzamenu2.css">
+	
+	<link rel="icon" href="./images/pizzaslice.ico">
+	
+	<link href="https://fonts.googleapis.com/css?family=Mogra&display=swap" rel="stylesheet">
+	
+	<title>Fantasy Pizza</title>
+	</head>
+	<body>
+	
+								<!-- NAVIGATION -->
+					<div class="container">	
+						<nav class="navbar navbar-expand-md navbar-light">
+				  <a class="navbar-brand brand" href="#home">Fantasy Pizza</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+					
+				  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					<ul class="navbar-nav  ml-auto mt-2 mt-lg-0 ">
+					  <li class="nav-item active">
+						<a class="nav-link" id="order-button" href="#order">Order<!--<span class="sr-only">(current)</span>--></a>
+					  </li>
+					  <li class="nav-item active">
+						<a class="nav-link" href="#about">About</a>
+					  </li>
+					  <li class="nav-item active">
+						<a class="nav-link" href="#" tabindex="-1">Contact</a>
+					  </li>
+					</ul>
+					
+				   
+				  </div>
+				</nav>
+
+								<!-- /NAVIGATION -->
+						
+									<!-- INTRO -->
+					<div class="jumbotron jumbotron-fluid" id="home">
+						<div class="container">
+							<h1 class="display-4">Fantasy Pizza</h1>
+							<p class="lead">We have the most delicious pizza<br> you'll think it's magical!</p>
+						</div>
+					</div>
+					
+									<!-- /INTRO -->
+	
+				<h3 id="order">- - - Order - - -</h3>
+					<form id="menu-wrap">
+									<!-- SIZE -->
+						<div class="menu">
+							<h3>Size</h3>
+							<input type="radio" class="size" name="size" value="Personal Pizza" required="required" checked>Personal . . . . . . . . . . . . . . . $6.00<br>
+							<input type="radio" class="size" name="size" value="Medium Pizza" required="required">Medium . . . . . . . . . . . . . . . $10.00<br>
+							<input type="radio" class="size" name="size" value="Large Pizza" required="required">Large . . . . . . . . . . . . . . . . . $14.00<br>
+							<input type="radio" class="size" name="size" value="Extra Large Pizza" required="required">Extra Large . . . . . . . . . . . . $16.00<br>
+						</div>
+								<!-- /SIZE -->
+						
+								<!-- CRUST -->	
+					<div class="menu">	
+						<h3>Crust</h3>
+						<input type="radio" class="crust" name="crust" value="Regular Crust" required="required" checked>Regular<br>
+						<input type="radio" class="crust" name="crust" value="Garlic Butter Crust" required="required">Garlic Butter<br>
+						<input type="radio" class="crust" name="crust" value="Cheese Stuffed Crust" required="required">Cheese Stuffed . . . . . . . . . +$3.00<br>
+						<input type="radio" class="crust" name="crust" value="Spicy Crust" required="required">Spicy<br>
+						<input type="radio" class="crust" name="crust" value="House Special Crust" required="required">House Special<br>
+					</div>
+								<!-- /CRUST -->
+						
+								<!-- SAUCE -->
+					<div class="menu">
+						<h3>Sauce</h3>
+						<input type="radio" class="sauce" name="sauce" value="Marinara Sauce" required="required" checked>Marinara Sauce<br>
+						<input type="radio" class="sauce" name="sauce" value="White Sauce" required="required">White Sauce<br>
+						<input type="radio" class="sauce" name="sauce" value="Barbecue Sauce" required="required">Barbeque Sauce<br>
+						<input type="radio" class="sauce" name="sauce" value="No Sauce" required="required">No Sauce<br>
+					</div>
+								<!-- /SAUCE -->
+					
+								<!-- CHEESE -->
+					<div class="menu">
+						<h3>Cheese</h3>
+						<input type="radio" class="cheese" name="cheese" value="Regular Cheese" required="required" checked>Regular<br>
+						<input type="radio" class="cheese" name="cheese" value="Extra Cheese" required="required">Extra Cheese . . . . . . . . . . . +$3.00<br>
+						<input type="radio" class="cheese" name="cheese" value="No Cheese" required="required">No Cheese<br>
+					</div>
+								<!-- /CHEESE -->
+					
+								<!-- VEGGIES -->
+					<div class="menu">
+						<h3>Veggies</h3>
+						<input type="checkbox" class="veggies" name="veggies" value="Tomatoes">Tomatoes<br>
+						<input type="checkbox" class="veggies" name="veggies" value="Onions">Onions<br>
+						<input type="checkbox" class="veggies" name="veggies" value="Olives">Olives<br>
+						<input type="checkbox" class="veggies" name="veggies" value="Green Peppers">Green Peppers<br>
+						<input type="checkbox" class="veggies" name="veggies" value="Mushrooms">Mushrooms<br>
+						<input type="checkbox" class="veggies" name="veggies" value="Pineapple">Pineapple<br>
+						<input type="checkbox" class="veggies" name="veggies" value="Spinach">Spinach<br>
+						<input type="checkbox" class="veggies" name="veggies" value="Jalape&#241;o">Jalape&#241;o<br>	
+						<br>
+						<p>note: First veggie topping is complimentary, +$1.00/topping for additional toppings.</p>
+					</div>
+								<!-- /VEGGIES -->
+					
+								<!-- MEAT -->
+					<div class="menu">
+						<h3>Meat</h3>
+						<input type="checkbox" class="meat" name="meat" value="Pepperoni">Pepperoni<br>
+						<input type="checkbox" class="meat" name="meat" value="Sausage">Sausage<br>
+						<input type="checkbox" class="meat" name="meat" value="Canadian Bacon">Canadian Bacon<br>
+						<input type="checkbox" class="meat" name="meat" value="Ground Beef">Ground Beef<br>
+						<input type="checkbox" class="meat" name="meat" value="Chicken">Chicken<br>
+						<input type="checkbox" class="meat" name="meat" value="Anchovy">Anchovy<br>
+						<br><br><br>
+						<p>note: First meat topping is complimentary, +$1.00/topping for additional toppings.</p>
+					</div>
+								<!-- /MEAT -->
+				
+			</form>
+
+								<!-- CONTROLS -->
+				<div class="controls">
+					<div class="button" onclick="clearAll()">
+						<p>Cancel</p>
+					</div>
+					<div class="button" onclick="getReceipt()">
+						<p>Place Order</p>
+					</div>
+				</div>
+								<!-- /CONTROLS -->
+
+								<!-- ORDER -->
+				<div id="cart">
+					<h3>- - - Order - - -</h3>
+					<table style="width:100%">
+					  <tr>
+						<th>Item</th>
+						<th>Subtotal</th>
+					  </tr>
+					  
+					  <tr>
+						<td><div id="Text1"></div></td>
+						<td><div id="Text2"></div></td> 
+					  </tr>
+					  <tr>
+						<td id="total"><h5>Total Price:</h5></td>
+						<td><div id="totalPrice2"></div></td>
+					  </tr>
+					</table>
+				</div>
+								<!-- /ORDER -->
+		</div>
+			
+								<!-- BOTTOM BANNER -->
+							
+	<div id="footer-img">
+		<img src="./images/pizzaslice.ico" style="width:90px;">
+		<img src="./images/unicorn.ico" style="width:90px;">
+	</div>
+							
+								<!-- /BOTTOM BANNER -->
+							
+								<!-- FOOTER -->
+	<div id="footer">
+		<p id="about">Copyright Fantasy Pizza 2019</p>
+	</div>						
+								<!-- /FOOTER -->
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+	<script src="./js/pizzamenu2.js"></script>
+
+
+
+	</body>
+</html>

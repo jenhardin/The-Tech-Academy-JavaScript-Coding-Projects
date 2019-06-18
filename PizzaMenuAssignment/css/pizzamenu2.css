@@ -1,0 +1,188 @@
+
+.navbar {
+	font-size: 25px;
+	background-color: #FF8C00;
+	margin-bottom: 10px;
+	color: #FECC01;
+}
+
+.navbar-nav {
+		color: white;
+}
+
+.nav-link {
+	color: #FECC01;
+}
+
+.nav-link:hover {
+	color: yellow;
+}
+
+.navbar-brand.brand {
+    color: white;
+	font-size: 40px;
+}
+
+.container {
+	width: 750px;
+}
+
+h1 {
+	color: #BF2701;
+}
+.lead {
+	text-align: center;
+	color: #FECC01;
+}
+
+body {
+	font-family: 'Mogra', cursive;
+}
+
+h3 {
+	font-size: 30px;
+	text-align: center;
+	color: #FECC01;
+}
+
+.jumbotron {
+	font-family: 'Mogra', cursive;
+	border: 4px dotted;
+	border-color: #FF8C00;
+	background-image: url("../images/pizza_dragon.jpg"), url("../images/pizza_unicorn3.jpg");
+	background-size: 250px, 300px;
+	background-repeat: no-repeat;
+	background-position: right, left;
+	background-color: white;
+	text-align: center;
+}
+
+#menu-wrap {
+	margin: 0% auto;
+	width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.menu {
+	border-radius: 10px;
+	padding: 30px;
+	background-color:  #BF2701;
+	width: 350px;
+	border: 2px solid black;
+	color: #FF8C00;
+	margin: 5px;
+}
+
+input[type="radio"] {
+	margin-right: 15px;
+}
+
+input[type="checkbox"] {
+	margin-right: 15px;
+}
+
+form {
+	padding-bottom: 30px;
+}
+
+.controls {
+	display: flex;
+    flex-direction: columns;
+    justify-content: space-between;
+	margin: 0 auto;
+	width: 550px;
+	text-align: center;
+}
+
+.button {
+	cursor: pointer;
+	width: 50%;
+	display: block;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #FECC01;
+}
+
+.button:hover {
+	background-color:  #FF8C00;
+}
+
+.button>p {
+	font-size: 20px;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#cart {
+	opacity: 0;
+	margin: 15px auto;
+	width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+	background-color: #BF2701;
+	border-radius: 10px;
+	border: 2px solid;
+}
+
+
+h2 {
+	text-align: center;
+	flex: 1 40px;
+	padding: 0 0 0px 10px;
+	font-size: 35px;
+}
+
+table {
+	margin-left: 20px;
+}
+
+th {
+	font-size: 20px;
+}
+
+h5 {
+	text-align: right;
+	margin-right: 50px;
+	color: #FF8C00;
+}
+
+#Text2 {
+	margin-left: 35px;
+}
+
+#totalPrice2 {
+	font-size: 30px;
+
+}
+
+#footer-img {
+	text-align: center;
+}
+
+#footer {
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 35px;
+	}
+	.jumbotron {
+	background-image: url("../images/pizza_dragon.jpg");
+	background-size: 250px;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: white;
+	}
+	
+	.navbar-brand.brand {
+    color: white;
+	font-size: 30px;
+	}
+}
